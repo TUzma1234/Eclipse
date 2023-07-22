@@ -1,0 +1,150 @@
+
+                                    :JAVA TEST 03:
+		1) error
+		2)error
+		3)3.50
+		4)length 4
+		5)METHOD PARAMTERS:Information can be passed to methods as parameter.
+		Parameters act as variables inside the method.
+		Parameters are specified after the method name, inside the parentheses.
+		 You can add as many parameters as you want, just separate them with a comma.
+          for example String is called parameters.
+		6)COMPLIE TIME POLYMORPHISM: complie time polymorphism is known as a static polymorphism is a type of
+		                             polymorphism that resolved at complie time.
+									 It occurs when the decision take in method or function to call is made by the
+									 compile based on the method or number of the types of arguments during the function call.
+								Two common ways to achieve compile-time polymorphism are method overloading and operator by method overloading.
+								 
+								 class Number{
+								 void main(int a, int b){
+								 System.out.println("Sum of two="+ (a*b));
+								 }
+								 }
+								 class Polymorphism{
+								 public stati void main(String[]args){
+								 Number number=new Number();
+								 number.num(8,10);
+								 number.num(4,10,9);
+								 }
+								 }
+			10)CONSTRUCTOR CHAINING:Constructor chaining is the process of calling one constructor from another
+			                         constructor with respect to current object is called constructor chaining.
+									 
+									 Within same class: It can be done using this() keyword for constructors in the same class.
+                                      From base class: by using super() keyword to call the constructor from the base class.
+									  class Person {
+                                       String name;
+                                        int age;
+										public Person(String name, int age) {
+                                           this.name = name;
+                                           this.age = age;
+                                            }
+											public Person(String name) {
+                                            this(name, 0);
+											}
+											 public Person() {
+                                                 this("Unknown", 0}
+												 }
+												 public void displayInfo() {
+                                                  System.out.println("Name: " + name + ", Age: " + age);
+                                                      }
+                                                 }
+												 
+			11)public class FibonacciRecursion {
+                      public static void main(String[] args) {
+                            int n = 10; 
+                     System.out.println("Fibonacci Sequence:");
+                    for (int i = 0; i < n; i++) {
+            System.out.print(fibonacci(i) + " ");
+            }
+         }
+		            public static int fibonacci(int n) {
+                     if (n <= 1) {
+                      return n;
+                      else {
+                    return fibonacci(n - 1) + fibonacci(n - 2);
+                    }
+                }
+             }	
+			 
+			 
+			 
+			 12)  If a number is not completely divisible by two, then it is considered an odd number.
+			      For such numbers, dividing them by two always leaves a remainder of one.
+				  For example: 11 is an odd number because dividing by two leaves 1 as a remainder. 
+				  It is not completely divisible by 2. The 1 in the unit place indicates the number as odd.
+			
+			13) We will be using two methods: Arrays.sort() and Arrays.equals() from the java.util package to solve .
+			    The Arrays.sort() method sorts the elements of the array in increasing order.
+			    The Arrays.equals() method checks the equality of the two arrays in terms of size, data, and order of elements.
+			
+			14) An enumeration is a complete, ordered listing of all the items in a collection.
+			
+			15), the Java Virtual Machine (JVM) goes through several steps to allocate memory, initialize the object.
+			      inside the JVM when you create an object
+				  class loading
+				  memory allocation
+				  object initialize
+				  Constructor
+				  
+				  
+			16)In object-oriented programming, a class is a blueprint for creating objects.
+                    Data members
+					Method
+					Constructor
+					Sstatic 
+					Inner class
+					Acess modifier
+					Inheritances
+					Polymorphism
+					Overloading
+		
+					
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+			
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+
+								 
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									 
+
+			
+			
+ 
+ 								 
+
+		
+		
+		

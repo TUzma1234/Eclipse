@@ -1,0 +1,40 @@
+                                :SQL TEST 01:
+			1)CREATE DATABASE name;
+			2)CREATE TABLE Person(
+			  personID int;
+			  LastName varchar(44),
+			  FirstName varchar(13),
+			  Address varchar(89),
+			  City varchar(67));
+			3)ALTER TABLE Customers
+			  ADD Email varchar(21);
+			 4)ALTER TABLE "table_name"
+			 DROP COLUMN "column_name";
+			 5)ALTER TABLE table_name
+               CHANGE COLUMN oldcolumn_name to newcolumn_name;
+			 6)create table tblactor
+                 (
+                 actor_id int,
+                first_name varchar(500),
+                first_name varchar(500),
+                 address varchar(500),
+                 CityID int,
+                  lastupdate datetime);
+			7)UPDATE Customer
+              SET ContactName = 'Sunil', City= 'Bijapur'
+               WHERE CustomerID = 1;
+			   
+			8)DELETE FROM  WHERE BankName='Union BankName';
+			10) SUM()
+			    COUNT()
+				AVG()
+				SELECT department_name, ROUND(AVG(salary), 0) avg_salary
+                FROM employeesINNER JOI departments USING (department_id)GROUP BY department_nameORDER BY department_name;
+				MIN()
+				SELECT department_name, MIN(salary) min_salary FROM employees INNER JOIN departments USING (department_id)GROUP BY department_name ORDER BY department_name;
+				MAX()
+				SELECT department_name, MAX(salary) highest_salary FROM employees INNER JOIN departments USING (department_id)
+				GROUP BY department_nameORDER BY department_name;
+
+    
+			
