@@ -7,8 +7,8 @@ public class LotusRunner {
 		System.out.println("Running main method");
 		Lotus lotus=new Lotus();
 		System.out.println(lotus);
-		Lotus lotus2=new Lotus();
-		System.out.println(lotus.toString());
+		Object lotus2=new Lotus();
+		System.out.println(lotus2.toString());
 	}
 
 }

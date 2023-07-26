@@ -5,10 +5,10 @@ public class PrimeMinisterRunner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		PrimeMinister primeMinister1=new PrimeMinister();
-		System.out.println("primeminister1");
-		PrimeMinister primeMinister=new PrimeMinister();
-		System.out.println("primeminister1.toString()");
+		PrimeMinister primeminister1=new PrimeMinister();
+		System.out.println(primeminister1);
+		Object primeminister=new PrimeMinister();
+		System.out.println(primeminister.toString());
 		
 	}
 
