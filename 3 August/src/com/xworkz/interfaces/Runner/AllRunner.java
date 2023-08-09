@@ -2,6 +2,7 @@ package com.xworkz.interfaces.Runner;
 
 import com.xworkz.interfaces.app.airport.AirportRule;
 
+
 import com.xworkz.interfaces.app.airport.BangolreAirportRule;
 import com.xworkz.interfaces.app.Army.MailtreArmyRule;
 import com.xworkz.interfaces.app.Army.MailtreArmyRule;
@@ -11,7 +12,8 @@ import com.xworkz.interfaces.app.saloon.CustomerSaloonRule;
 import com.xworkz.interfaces.bank.CustomerBankRule;
 import com.xworkz.interfaces.metro.PassengersMetroRule;
 import com.xworkz.interfaces.home.HomePeopleRule;
-
+import com.xworkz.interfaces.vtu.StudentsVtuRule;
+import com.xworkz.interfaces.hospital.AyushHospital;
 public class AllRunner {
 	
 	public static void main(String[] args) {
@@ -60,6 +62,15 @@ public class AllRunner {
 		System.out.println("home Rule");
 		HomePeopleRule homeRules = new HomePeopleRule();
 		homeRules.cleaning();
+		
+		System.out.println("vtu Rule");
+		StudentsVtuRule vtuRules = new StudentsVtuRule();
+		vtuRules.attendance();
+		
+		System.out.println("hospital Rule");
+		AyushHospital hospitalRule = new AyushHospital();
+		hospitalRule.silent();
+
 		
 		
 		
