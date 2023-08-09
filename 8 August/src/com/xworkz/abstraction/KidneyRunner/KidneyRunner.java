@@ -1,7 +1,7 @@
 package com.xworkz.abstraction.KidneyRunner;
 import com.xworkz.abstraction.app.kidney.BodyKidney;
 import com.xworkz.abstraction.app.kidney.Kidney;
-import com.xworkz.abstraction.app.kidney.MyKidney;
+import com.xworkz.abstraction.app.kidney.ZebaKidney;
 public class KidneyRunner {
 	
 	
@@ -10,7 +10,7 @@ public class KidneyRunner {
 		System.out.println("main of Kidney");
 
 		Kidney kidney = new BodyKidney();
-		MyKidney my = new MyKidney(kidney);
+		ZebaKidney my = new ZebaKidney(kidney);
 		my.check();
 
 	}

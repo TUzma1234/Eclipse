@@ -1,10 +1,10 @@
 package com.xworkz.abstraction.app.kidney;
 
-public class MyKidney {
+public class ZebaKidney {
 	
 	private Kidney kidney;
 
-	public MyKidney(Kidney kidney) {
+	public ZebaKidney(Kidney kidney) {
 		this.kidney = kidney;
 		System.out.println("kidney arg of MyKidney");
 	}
@@ -18,5 +18,6 @@ public class MyKidney {
 		}
 	}
 }
+
 
 

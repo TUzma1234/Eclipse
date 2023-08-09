@@ -1,18 +1,19 @@
-package com.xworkz.abstraction.SmartwatchRunner;
+package com.xworkz.abstraction.smartwatchrunner;
 
-import com.xworkz.abstraction.app.smartwatch.DigitalWatch;
-import com.xworkz.abstraction.app.smartwatch.FastTrack;
-import com.xworkz.abstraction.app.smartwatch.SmartWatch;
+
+import com.xworkz.abstraction.app.Smartwatch.Panerai;
+
+import com.xworkz.abstraction.app.Smartwatch.JacquelineFernandez;
+import com.xworkz.abstraction.app.Smartwatch.SmartWatch;
 
 public class SmartwatchRunner {
 	
-	
-
 	public static void main(String[] args) {
-		System.out.println("main of SmartWatch");
-		SmartWatch smart = new DigitalWatch();
-		FastTrack fast = new FastTrack(smart);
-		fast.check();
+		SmartWatch smart=new Panerai();
+		smart.price();
+
+		JacquelineFernandez jacqueline=new JacquelineFernandez(smart);
+		jacqueline.showTime();
 
 	}
 

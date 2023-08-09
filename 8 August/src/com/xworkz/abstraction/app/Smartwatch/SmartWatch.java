@@ -1,8 +1,9 @@
 package com.xworkz.abstraction.app.Smartwatch;
 
 public interface SmartWatch {
-	void showTime();
-	}
-
+	
+	String NAMEOFWATCH="Casio";
+	int price();
+}
 
 
