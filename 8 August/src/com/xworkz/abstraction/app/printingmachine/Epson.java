@@ -7,6 +7,12 @@ public   class Epson implements PrintingMachine {
 		System.out.println("Invkoing the print of printingmachine");
 	}
 
+	@Override
+	public String company() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
 
 
